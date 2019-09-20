@@ -1,0 +1,17 @@
+{
+  "name": "questionnaire",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/hochan222/questionnaire",
+  "author": "hochan222 <201502766@hufs.ac.kr>",
+  "license": "MIT",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "graphql-yoga": "^1.18.3",
+    "nodemon": "^1.19.2"
+  },
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js"
+  }
+}
